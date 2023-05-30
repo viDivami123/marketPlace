@@ -1,0 +1,11 @@
+<div class="task-need-attention-box">
+    <div class="task-need-attention-item" *ngFor="let item of taskNeedAttention">
+             <div class="item-icon-box">
+                <img src="{{item.img}}" class="item-image"/>
+             </div> 
+             <div class="item-details">
+                <label class="item-details-title">{{item.name}}</label>
+                <label class="item-details-duration">{{item.duration}}</label>           
+    </div>
+    </div>
+    </div>

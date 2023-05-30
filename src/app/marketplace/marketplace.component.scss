@@ -1,0 +1,43 @@
+.parentComp{
+    background-color: #EEF2F4;
+}
+.mr-items{
+    width: 1120px;
+    height: 182px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+    gap: 30px;
+}.mr-section-label{
+    font-size: 14px;
+    font-family: 'Urbanist', sans-serif;
+    margin-left: 40px;
+}
+.mr-section-item{
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+    background-color: white;
+    width: 150px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Urbanist', sans-serif;
+    margin: auto;
+    img{
+        margin-top: 10px;
+    }
+}
+.mr-section-item label{
+    margin-top: 15px;
+}

@@ -1,0 +1,37 @@
+
+.mr-section-3-label{
+    font-size: 14px;
+    font-family: 'Urbanist', sans-serif;
+    margin-left: 40px;
+}
+.mr-section-3 .section-heading{
+    margin-bottom: 0px;
+}
+.mr-section-3 .section-heading >label:nth-child(2){
+    color: #EC187B;
+    font-size: 14px;
+    font-family: 'Urbanist', sans-serif;
+    float: right;
+    margin-right: 10px;
+}
+.mr-section-3 .mr-items{
+    width: 1120px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+    gap: 30px;
+}
+.mr-section-3 .mr-items .item{
+    width: 240px;
+    height: 350px;
+}
+.mr-section-3 .mr-items .item .cart-fish{
+height: 140px;
+width: 100%;
+}

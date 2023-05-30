@@ -1,0 +1,20 @@
+
+<div class="topOrdered-box">
+    <div class="topOrdered-item" *ngFor="let item of topRatedItems">
+             <div class="item-img-box">
+                <img src="{{item.img}}"/>
+             </div> 
+             <div class="item-details">
+                <div class="progressBox">
+                    <p class="item-details-title">{{item.name}}</p>
+                    <div class="w3-border item-details-progressBar">
+                        <div [style.width.px]="item.progress">
+                        </div>
+                 </div>  
+                </div>
+               
+             <span class="item-details-sku">{{item.value}} required</span>           
+    </div>
+    </div>
+    
+    

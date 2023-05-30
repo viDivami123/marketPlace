@@ -1,0 +1,75 @@
+
+.topOrdered-box{
+    width: 540px;
+    box-sizing: border-box;
+    height: 450px;
+    margin-top:25px ;
+    background-color: white;
+    padding-top: 20px;
+    border-radius:5px;
+    margin-left: 40px;
+}.topOrdered-item{
+    display: flex;
+    justify-content: row;
+    }
+.item-img-box{
+    width: 78px;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+    align-items: center;
+    
+}.item-img-box img{
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+}
+.item-details{
+    display: flex;
+}.item-details-progressBar{
+    width: 240px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+.item-details-progressBar div{
+    height:8px;
+    border-radius: 10px;  
+    background-color: #82BD54;
+}
+.item-details-title{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+.item-details .progressBox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-self: center;
+}
+.item-details .progressBox p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.progressBox p{
+    margin: 0px;
+}
+
+.item-details-sku{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    height: 10px;
+    line-height: 20px;
+    display: flex;
+    align-self: center;
+    margin-top: 2px;
+}
